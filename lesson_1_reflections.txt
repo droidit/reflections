@@ -1,0 +1,46 @@
+1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+By viewing only the difference in the code we can pin point where the error is since we know that the old code was working 
+and any bug creep is just because of our new change.
+
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It works as a chckpoint helpeng the programmer to go back to any point he or she feels is a good point to start again in case the program crashes or becomes no more useful.
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Pros:
+	1) avoides commits with unstable code
+	2) gives us full control of when to do the commit
+Cons:
+	1) if we havent commited for a long time and we loose our changes due to system crash or something then the changes wiil be los
+	2) it is good programming practice to commit often which comes only with experience and novice programmers will find it difficult
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+While developing a feature related code could span across many files. This requires VCS systems to store and track multiple files at the same time.
+Google Docs and other similar drives treat each document seperately since there is generally no logical connection between the documents.
+
+5) How can you use the commands git log and git diff to view the history of files?
+a) git log ->each commit has a record with the commit id, author, date/time and a message
+each git commit should have on clear logical purpose and never do too much work without commiting
+
+b) git diff can be used to find the code changes between two commits 
+
+6) How might using version control make you more confident to make changes that could break something?
+High confidence since we can always track back commits to check where a bug was introduced and the old commits always exist.
+
+
+Git command review
+
+Compare two commits, printing each line that is present in one commit but not the other.
+
+git diff will do this. It takes two arguments - the two commit ids to compare.
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+
+git clone will do this. It takes one argument - the url of the repository to copy.
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+git checkout will do this. It takes one argument - the commit ID to restore.
+
+Show the commits made in this repository, starting with the most recent.
+
+git log will do this. It doesn't take any arguments.
