@@ -14,3 +14,6 @@ Branches can keep the History organized when
 
 How do the diagrams help you visualize the branch structure?
 Diagrams give a tree type structure of all branches and what commits are under each branch which helps us understand the state of the code in each branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+the result of merging two branches is the changes in both the brnches are put together. we represent it so because the two branches become one
