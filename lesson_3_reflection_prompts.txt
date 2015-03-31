@@ -4,3 +4,13 @@ from where each can retrieve or push code to.
 
 Q) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 The latest stable code may have changed in the remote repo. A manual pull before pushing code will help in avoiding conflicts in the code.
+
+Q) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork and Clone are used to make a copy of a repository into a new repository.
+Fork is to copy a repo from a git hub account to another
+Clone is to copy a repo from git hub account(remote) to local machine or 
+to copy a local repo into another.
+
+Branch divides a single repo into different working areas inside a repo.
+With branch we can make a copy of the main code repo and make changes to it and merge with the master commit.  A bit unclear in the explaination. will revisit and change this on getting clarification.
+
