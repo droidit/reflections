@@ -1,3 +1,6 @@
 Q) When would you want to use a remote repository rather than keeping all your work local?
 When working with other programmers,remote repo will function as the common repo as the main stable code base 
 from where each can retrieve or push code to.
+
+Q) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+The latest stable code may have changed in the remote repo. A manual pull before pushing code will help in avoiding conflicts in the code.
