@@ -1,0 +1,3 @@
+Q) When would you want to use a remote repository rather than keeping all your work local?
+When working with other programmers,remote repo will function as the common repo as the main stable code base 
+from where each can retrieve or push code to.
